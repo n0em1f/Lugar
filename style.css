@@ -1,0 +1,862 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0px;
+    height:100vh;
+    font-family: 'Mulish', sans-serif;
+}
+
+.wrapper{
+    max-width:1520px;
+    width:100%;
+    margin:0 auto;
+}
+
+/*buttons*/
+.btn{
+    padding: 18px 24px;
+    display:inline-block;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.btn.dark{
+background-color:#1E3240;
+color: #FFF;
+font-size: 14px;
+margin-right:30px;
+}
+
+.btn.light{
+padding: 18px 24px;
+border: 1px solid #1E3240;
+color:#1E3240;
+}
+
+/*header*/
+
+header{
+    background-color: #AFD4E2;
+    height:100vh;
+    width:100%;
+}
+
+    nav{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding:2rem 4rem 0rem 4rem;
+    }
+
+    nav .logo{
+    font-family: 'Mulish' sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #1E3240;
+    padding-left:100px;
+    }
+    
+    nav ul{
+    display: flex;
+    align-items:center;
+    gap:70px;
+    list-style:none;
+    top:2rem;   
+    }
+    
+    nav ul li a{
+    font-family: 'Mulish';
+    font-size: 18px;
+    color: #1E3240;
+    text-decoration: none;
+    }
+
+    /*hero section*/
+
+    .hero-section{
+    display:flex;
+    align-items: center;  
+    margin:0px;
+    }
+    
+    .hero-section .left{
+    padding:0px 0px 0px 160px;
+    height:100vh;
+    width:100%;
+    }
+
+    .hero-section .left h1{
+    font-family: 'Mulish', sans-serif;
+    color: #1E3240;
+    font-size: 90px;
+    font-weight: 700;
+    }
+
+    .hero-section .left p{
+    color: #1E3240;
+    font-size: 18px;
+    font-family: Mulish, sans-serif;
+
+    }
+    .right{
+      width:1170px;
+      height:800px;
+     }
+
+.right img{
+    max-height:100%;
+    max-width:100%;
+
+}
+.arrow1{
+    margin-right:100px;
+    margin-top:200px;
+}
+
+/*.hero-section .right-hl{
+    display: flex;
+    }
+    .hero-section .highlight-left img{
+    margin-bottom:200px;
+    margin-right:100px;
+    }
+
+   .hero-section .highlight-right img{
+    margin-right:100px;
+    }*/
+    /*page 2*/ 
+
+    .award{
+    padding:150px;
+    display:flex;
+    }
+
+    .award-right{
+    display: block;
+    }
+
+    .right-text h1{
+    color: #1E3240;
+    font-size: 48px;
+    font-family: Mulish;
+    font-weight: bold;
+    padding-left:120px;
+    }
+    
+    .right-text p{
+    color:#BDBDBD;
+    font-size: 18px;
+    font-family: Mulish;
+    font-weight: 400;
+    padding-left:120px;
+    padding-bottom:40px;
+    }
+
+.achievement-cards{
+    display:flex;
+    padding-left:120px;
+}
+
+.content p{
+color: #AFD4E2;
+font-size: 14px;
+font-family: Mulish;
+font-weight: 700;
+padding-right:70px;
+}
+
+.content h3{
+    color: #1E3240;
+    font-size: 48px;
+    font-family: Mulish;
+    font-weight: 300;
+    margin:0px;
+
+}
+
+/*ongoing pojects*/
+
+    .ongoing-projects{
+    padding:150px;
+    overflow:hidden;
+    }
+
+    .projects{
+    display:flex;
+    gap:108px;
+    }
+
+    .projects img{
+    width: 350px;
+    height: 450px;
+    }
+
+    .title h1{
+    color: #1E3240;
+    font-size: 48px;
+    font-family: Mulish;
+    font-weight: 700;
+    margin:0px;
+    }
+
+    .title-info{
+    display:flex;
+    align-items:center;
+    margin-bottom:70px;
+    }
+
+    .title-info p{
+    color:#BDBDBD;
+    font-size: 18px;
+    font-family: Mulish;
+    font-weight: 400;
+    flex-grow:5;
+    }
+
+    .title-info img{
+    width: 32px;
+    height: 32px;
+    }
+
+    /*testimonial section*/ 
+
+    .testimonial-section{
+    display: flex;
+    padding:60px;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+    .testimonial h1{
+    text-align: center;
+    color:#1E3240;
+    font-family: Mulish, sans-serif;
+    font-weight: bold;
+    font-size:48px;
+    }
+    .testimonial p{
+    text-align: center;
+    color:#1E3240;
+    font-family: Mulish, sans-serif;
+    font-weight: bold;
+    font-size:18px;
+    }
+
+    .testimonial-section .testimonial-info h2{
+        color:#1E3240;
+        text-align:left;
+        font-family: Mulish, sans-serif;
+        font-weight: 700;
+
+    }
+
+    .testimonial-section .testimonial-info p{
+        color:#1E3240;
+        text-align:left;
+        font-family: Mulish, sans-serif;
+        font-weight: 300;
+        font-size:24px;
+    }
+
+    .person-info h4{
+        color:#1E3240;
+        font-size:24px;
+    }
+
+    .testimonial-info .person-info p{
+        color:#1E3240;
+        font-size:18px;
+    }
+
+    /*Contact form*/
+
+.contact-section{
+    display:flex;
+    padding:100px 145px;
+}
+
+    .contact-image img{
+        width: 500px;
+        height: 600px;
+    }
+
+    .contact-section .right-contact h1{
+        padding-left:100px;
+        font-family: Mulish, sans-serif;
+        color: #1E3240;
+        font-size: 48px;
+        font-weight: 700;
+    }
+
+    .contact-section .right-contact p{
+        padding-left:100px;
+        font-family: Mulish, sans-serif;
+        color: #BDBDBD;
+        font-size:18px;
+        font-weight: 400;
+    }
+
+    .contact-section .right-contact .btn{
+        background-color:#1E3240;
+        padding: 10px 24px;
+        
+    }
+
+    .contact-section .right-contact a{
+        
+        color: #FFF;
+        font-size: 14px;
+       
+    }
+
+    .contact-section .right-contact h6{
+    color:#BDBDBD;
+    font-size: 12px;
+    font-family: Mulish;
+    font-weight: 400;
+    padding-left: 15px;
+    }
+
+    .contact-section .registration-form {
+        padding: 15px 80px;
+    }
+
+    .contact-section .registration-form input{
+        border: 1px solid  #1E3240;
+        color:#BDBDBD;
+    font-size: 16px;
+    font-family: Mulish, sans-serif;
+    padding:10px 30px;
+    margin: 18px 20px;
+    }
+
+    .registration-form #description{
+    padding:10px 330px 80px 30px;
+}
+
+    .contact-section .btn-quote{
+        display:flex;
+        padding: 10px 100px;
+    }
+
+    /*footer*/
+
+    footer{
+        background: #1E3240;
+        color:#fff;
+        margin-top:100px;
+        padding:70px 100px;
+    }
+
+    footer a{
+        text-decoration: none;
+        font-size: 14px;
+        color:#BDBDBD;
+    }
+
+    footer ul{
+        list-style: none;
+        padding-left:0px;
+    }
+
+    footer ul li{
+        margin:16px 0px;
+    }
+
+    footer h3{
+        font-size:18px;
+    }
+
+    footer p{
+        font-size: 14px;
+        color:#BDBDBD;
+    }
+
+    footer .links-container{
+        display:grid;
+        grid-template-columns: 5fr 2fr 2fr 2fr;
+    }
+
+    
+    .loc-icon::before{
+        content:url(Images/ic_round-location-on.png);
+        padding-right:8px;
+    }
+    .phone-icon::before{
+        content:url(Images/ic_baseline-phone.png);
+        padding-right:8px;
+    }
+
+    .email-icon::before{
+        content:url(Images/ic_baseline-email.png);
+        padding-right:8px;
+    }
+
+    footer .copyright{
+        color:#BDBDBD;
+        font-size:12px;
+        padding-top:100px;
+    }
+
+    nav.mobile-nav, .mobile-menu-container{
+        display: none;
+    }
+
+    @media(max-width:1100px){
+
+.btn.dark{
+    margin:150px 200px 50px 60px;
+    padding:38px 54px;
+    font-size:30px;
+}
+
+.btn.light{
+    margin:0px 200px 0px 60px;
+    padding:38px 59px;
+    font-size:30px;
+}
+
+.wrapper{
+    padding:0px 0px 0px 27px;
+}
+
+.right{
+    width:1000px;
+}
+
+nav .logo{
+    width:100%;
+    left:0;
+    right:0;
+    padding:26px 27px;
+}
+nav ul{
+    width:100%;
+    left:0;
+    right:0;
+    padding:26px 27px;
+}
+
+header.hero-section, header.wrapper{
+    max-height: 1000px;
+}
+
+.hero-section{
+    flex-direction: column;
+}
+
+.hero-section .left{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    padding-left:0px;
+}
+
+.hero-section .right{
+    position: absolute;
+    bottom:0;
+}
+
+.hero-section .right img{
+    position: relative;
+    width: 450px;
+height:800px;
+margin-left:550px;
+}
+
+.hero-section .left h1{
+    padding:0;
+    margin-bottom:0px;
+    font-size: 100px;
+font-weight: 700;
+line-height: 120%;
+}
+
+.hero-section .left p{
+    font-size: 50px;;
+}
+
+.hero-section .left a{
+   align-self:flex-start;
+  
+}
+
+.hero-section .arrow1, .right-hl{
+    visibility:hidden;
+}
+
+.award{
+    padding-left:0;
+    padding-right:0;
+}
+
+.award .right-text{
+    padding-left:0px;
+}
+
+.award .right-text h1{
+    font-size: 40px;
+}
+
+.award .right-text p{
+font-size:10px;
+}
+
+.award .content p{
+font-size:6px;
+}
+
+.award .right-text h3{
+    font-size: 40px;
+}
+
+.ongoing-projects{
+    padding-left:0;
+    padding-right:0;
+}
+
+.ongoing-projects .projects{
+    gap:35px;
+}
+
+.ongoing-projects .projects img{
+width: 270px;
+height: 370px;
+}
+
+.ongoing-projects .projects .card4{
+    width: 100px;
+    height: 370px;  
+}
+
+.testimonial-section{
+    padding-left:0;
+    padding-right:0;
+}
+
+.testimonial-section .person img{
+    margin-right:20px;
+    margin-left:20px;
+    width:400px;
+    height:300px;
+}
+
+.testimonial-section .quote img{
+    width:40px;
+    height: 25px;
+}
+
+.testimonial-section .testimonial-info h2{
+font-size:20px;
+}
+
+.testimonial-section .testimonial-info p{
+font-size: 15px;
+}
+
+.testimonial-section .person-info h4{
+    font-size:20px;
+    padding-bottom:10px;
+}
+
+.contact-section{
+   padding-left: 0;
+   padding-right: 0;
+}
+.contact-image img{
+    width: 400px;
+    height: 500px;
+}
+
+.contact-section .right-info h1{
+padding-left:50px;
+font-size:30px;
+}
+
+.contact-section .right-info p{
+    padding-left:50px;
+font-size:10px;
+}
+
+.contact-section .registration-form{
+    padding-left:50px;
+}
+
+.contact-section .btn-quote{
+    padding-left:50px;
+}
+
+.contact-section .registration-form input{
+font-size: 14px;
+padding:10px 20px;
+margin: 18px 10px;
+}
+
+.registration-form #description{
+padding:10px 240px 80px 30px;
+}
+
+footer{
+    padding:60px 80px;
+}
+
+}
+
+@media(max-width:800px){
+nav{
+    padding: 0px;
+}
+
+nav ul{
+    display: none;
+}
+nav.mobile-nav{
+    display:flex;
+}
+
+header{
+    width:860px;
+    height:100vh;
+}
+
+nav .logo{
+    display: none ;
+}
+
+.btn.dark{
+    margin:100px 150px 30px 20px;
+    padding:38px 54px;
+    font-size:30px;
+}
+
+.btn.light{
+    margin:0px 100px 0px 20px;
+    padding:38px 64px;
+    font-size:30px;
+}
+
+.right{
+width:800px;
+}
+
+.hero-section .left p{
+width:100%;
+font-size:40px;
+}
+
+.hero-section .left h1{
+font-size:60px;
+}
+
+.hero-section .right img{
+position: relative;
+width: 350px;
+height:500px;
+margin-top: 300px;
+margin-left:450px;
+}
+
+nav .logo-mobile{
+font-size: 30px;
+padding:0px;
+margin:30px 0px;
+width:750px;
+font-weight: 900;
+}
+
+.mobile-menu-container .logo-menu{
+    align-self:flex-start;
+    margin-top:80px;
+    font-size: 30px;
+    font-weight: 900;
+    margin-left:150px;
+}
+
+.mobile-nav{
+display:flex;
+}
+
+.menu-icon img{
+position:relative;
+width:40px;
+}
+
+.mobile-menu-container{
+    position: fixed;
+    height: 100vh;
+    width:400px;
+    top:0;
+    right: 100%;
+    background: #FFF;
+    display: flex;
+    align-items:center;
+    justify-content:left;
+    z-index:200;
+    transition:all 400ms ease;
+}
+
+.mobile-menu-container.active{
+    left:0;
+}
+
+.mobile-menu-container .close-icon{
+    position: fixed;
+    top:32px;
+    left:350px;
+    opacity:0;
+    pointer-events: none;
+    transition: all 400ms ease;
+}
+
+.mobile-menu-container.active .close-icon{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.mobile-menu-container ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.mobile-menu-container ul li{
+    margin: 30px 80px 80px 0px;
+    text-align:end;
+}
+
+.mobile-menu-container ul li a{
+    color:#1E3240;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.hero-section .arrow1{
+    display:none;
+    }
+
+.award, .ongoing-projects, .testimonial, .testimonial-section, .contact-section, .links-container, .copyright, footer{
+    display:none;
+}
+}
+
+    @media (max-width:700px){
+        .wrapper{
+            width:800px;
+        }
+
+        header{
+            width:800px;
+        }
+        
+        .btn.dark{
+            margin:100px 150px 30px 20px;
+            padding:28px 44px;
+            font-size:20px;
+        }
+        
+        .btn.light{
+            margin:0px 100px 0px 20px;
+            padding:28px 49px;
+            font-size:20px;
+        }
+
+        .right{
+        width:800px;
+        margin:0px;
+        padding:0px;
+        }
+
+        .menu-icon img{
+            position:relative;
+            margin-right:20px;
+            width:40px;
+            }
+
+        .hero-section .left p{
+        width:100%;
+        font-size:33px;
+        }
+
+        .hero-section .left h1{
+        font-size:60px;
+        }
+
+        .hero-section .right img{
+        position: relative;
+        width: 350px;
+        height:500px;
+        margin-top: 300px;
+        margin-left:440px;
+        }
+
+        nav .logo{
+        font-size: 30px;
+        width:30px;
+        }
+
+        nav.mobile-nav{
+        padding:0px 32px;
+        }
+
+        .mobile-menu-container{
+            position: fixed;
+            height: 100vh;
+            width:400px;
+            top:0;
+            right: 100%;
+            background: #FFF;
+            display: flex;
+            align-items:center;
+            justify-content:left;
+            z-index:200;
+            transition:all 400ms ease;
+        }
+        
+        .mobile-menu-container.active{
+            left:0;
+        }
+        
+        .mobile-menu-container .close-icon{
+            position: fixed;
+            top:32px;
+            left:350px;
+            opacity:0;
+            pointer-events: none;
+            transition: all 400ms ease;
+        }
+        
+        .mobile-menu-container.active .close-icon{
+            opacity: 1;
+            pointer-events: auto;
+        }
+        
+        .mobile-menu-container ul{
+            list-style: none;
+            padding: 0px;
+        }
+        
+        .mobile-menu-container ul li{
+            margin: 30px 80px 80px 0px;
+            text-align: left;
+        }
+        
+        .mobile-menu-container ul li a{
+            color:#1E3240;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+    
+        .hero-section .arrow1{
+        display:none;
+        }
+
+        .award, .ongoing-projects, .testimonial, .testimonial-section, .contact-section, .links-container, .copyright, footer{
+        display:none;
+    }
+}
